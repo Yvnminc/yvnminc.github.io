@@ -9,8 +9,6 @@
 # testing
 /coverage
 
-/src/assets/font-awesome
-
 
 # misc
 .DS_Store
