@@ -25,12 +25,12 @@
 }
 
 .heading-img-div > * {
-  max-width: 100%;
+  max-width: 20%;
   height: auto;
 }
 
 .heading-text {
-  font-size: 56px;
+  font-size: 32px;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;

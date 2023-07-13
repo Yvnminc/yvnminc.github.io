@@ -49,14 +49,17 @@ class DegreeCard extends Component {
                   {degree.title}
                 </h2>
                 <h3 className="card-subtitle" style={{ color: theme.text }}>
-                  {degree.subtitle}
+                  {degree.subtitle1}
+                </h3>
+                <h3 className="card-subtitle" style={{ color: theme.text }}>
+                  {degree.subtitle2}
                 </h3>
               </div>
               <div className="body-header-duration">
                 <h3 className="duration ml-auto" style={{ color: theme.text }}>
                   {degree.duration}
                 </h3>
-                <h3 className="cgpa ml-auto">CGPA {degree.cgpa}</h3>
+                <h3 className="cgpa ml-auto">WAM {degree.cgpa}</h3>
               </div>
             </div>
             <div classname="body-content">

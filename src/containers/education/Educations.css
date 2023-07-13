@@ -1,8 +1,13 @@
 .educations-header {
-  font-size: 40px;
+  font-size: 56px;
   line-height: 1.1;
   font-family: "Google Sans Regular";
   text-align: center;
+}
+
+.main {
+    width: 90%;
+    margin: 0px auto;
 }
 
 @media (max-width: 1380px) {

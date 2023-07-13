@@ -18,7 +18,7 @@ class SkillTree extends Component {
         <Skills theme={this.props.theme} />
         <StackProgress theme={this.props.theme} />
         <SkillLanguage theme={this.props.theme} />
-        <SkillTools theme={this.props.theme} />
+        {/* <SkillTools theme={this.props.theme} /> */}
         <TopButton theme={this.props.theme} />
       </div>
     );

@@ -11,7 +11,7 @@ const greeting = {
   logo_name: "Yanming Guo",
   nickname: "Hi! Here's Yann👋🏻",
   subTitle:
-    "An AI Researcher who deeply committed to applying mathematical models to devise practical solutions for pressing real-world challenges. Current research areas encompass Biomedical Computer Vision and Causal Inference in Environmental Economics. Strive to transform abstract mathematical concepts into these domains.",
+    "Hi, there! I am Yanming, a Hip Hop dancer, photographer and AI Researcher committed to applying mathematical models to devise practical solutions for pressing real-world challenges. My current research areas encompass Biomedical Computer Vision and Causal Inference in Environmental Economics. Strive to transform abstract mathematical concepts into these domains.",
   resumeLink:
     "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
   portfolio_repository: "https://github.com/Tasin5541",
@@ -72,8 +72,11 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
+        "⚡ Hands on real-world data with serveral EDA experience.",
+        "⚡ Confident in applying interactive visualisation tools such as Tableau, Matlibplot, Plotly, NetworkX.",
+        "⚡ Research in Deep Nueral Nework from BioMedical Imaging Domain, proposed AUtO-Net for segmentation with SOTA performance.",
+        "⚡ Research in developing efficient Computer Vision Models with the fusion of CNNs and Transformers.",
+        "⚡ Experince in Reinforcement Learning and Natural Language Processing (See GitHub Projects).",
       ],
       softwareSkills: [
         {
@@ -112,9 +115,12 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using Angular and React",
-        "⚡ Implementing secure access to database",
-        "⚡ Creating application backend in .Net Core",
+        "⚡ Build CRM software as Captone project with functions such as customer relationship management, email notification.",
+        "⚡ Implementing protype of HTTP server with C.",
+        "⚡ Developing software based on OOSD patterns and principles by SrpingBoost framework.",
+        "⚡ Front-end design by JavaScript.",
+        "⚡ Experience working on IOS apps.",
+        "⚡ Knowledge on several SDKs & APIs and deplyments.",
       ],
       softwareSkills: [
         {
@@ -129,13 +135,6 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
           },
         },
         {
@@ -168,13 +167,6 @@ const skills = {
           },
         },
         {
-          skillName: "Angular",
-          fontAwesomeClassname: "simple-icons:angular",
-          style: {
-            color: "#DD0031",
-          },
-        },
-        {
           skillName: ".Net Core",
           fontAwesomeClassname: "mdi:dot-net",
           style: {
@@ -183,113 +175,114 @@ const skills = {
         },
       ],
     },
-    {
-      title: "App Development",
-      fileName: "AndroidImg",
-      skills: [
-        "⚡ Experience working on Android apps",
-        "⚡ Knowledge on several SDKs & APIs",
-        "⚡ Deploying Firebase based apps for secure accessing of information from anywhere",
-        "⚡ Adapting new Material Design principles for a more refined look",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "Android Studio",
-          fontAwesomeClassname: "mdi:android-studio",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "VS",
-          fontAwesomeClassname: "mdi:microsoft-visual-studio",
-          style: {
-            color: "#5C2D91",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "Gradle",
-          fontAwesomeClassname: "simple-icons:gradle",
-          style: {
-            color: "#02303A",
-          },
-        },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
-          style: {
-            color: "#007396",
-          },
-        },
-        {
-          skillName: "ADB",
-          fontAwesomeClassname: "ic:outline-adb",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Eclipse",
-          fontAwesomeClassname: "simple-icons:eclipseide",
-          style: {
-            color: "#2C2255",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
-      ],
-    },
+    // {
+    //   title: "App Development",
+    //   fileName: "AndroidImg",
+    //   skills: [
+    //     "⚡ Experience working on Android apps",
+    //     "⚡ Knowledge on several SDKs & APIs",
+    //     "⚡ Deploying Firebase based apps for secure accessing of information from anywhere",
+    //     "⚡ Adapting new Material Design principles for a more refined look",
+
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "GCP",
+    //       fontAwesomeClassname: "simple-icons:googlecloud",
+    //       style: {
+    //         color: "#4285F4",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Android Studio",
+    //       fontAwesomeClassname: "mdi:android-studio",
+    //       style: {
+    //         color: "#3DDC84",
+    //       },
+    //     },
+    //     {
+    //       skillName: "VS",
+    //       fontAwesomeClassname: "mdi:microsoft-visual-studio",
+    //       style: {
+    //         color: "#5C2D91",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Firebase",
+    //       fontAwesomeClassname: "simple-icons:firebase",
+    //       style: {
+    //         color: "#FFCA28",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Gradle",
+    //       fontAwesomeClassname: "simple-icons:gradle",
+    //       style: {
+    //         color: "#02303A",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Java",
+    //       fontAwesomeClassname: "simple-icons:java",
+    //       style: {
+    //         color: "#007396",
+    //       },
+    //     },
+    //     {
+    //       skillName: "ADB",
+    //       fontAwesomeClassname: "ic:outline-adb",
+    //       style: {
+    //         color: "#3DDC84",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Eclipse",
+    //       fontAwesomeClassname: "simple-icons:eclipseide",
+    //       style: {
+    //         color: "#2C2255",
+    //       },
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -298,7 +291,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
+      progressPercentage: "60%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -306,7 +299,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%",
+      progressPercentage: "90%",
     },
   ],
 };
@@ -317,52 +310,73 @@ const sLanguage = {
   experience: [
     {
       Stack: "Python", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "C/C++/C#",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Java", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "JavaScript/TypeScript",
-      progressPercentage: "65%",
-    },
-    {
-      Stack: "Angular",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "React",
-      progressPercentage: "60%",
-    },
-    {
-      Stack: "SQL/PLSQL",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "HTML", //Insert stack or technology you have experience in
       progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "CSS",
+      Stack: "C/C++/C#",
       progressPercentage: "80%",
     },
     {
-      Stack: "Bootstrap",
-      progressPercentage: "80%",
+      Stack: "Java", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "PHP",
+      Stack: "JavaScript/TypeScript",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "R",
+      progressPercentage: "60%",
+    },
+    // {
+    //   Stack: "React",
+    //   progressPercentage: "60%",
+    // },
+    {
+      Stack: "SQL/PLSQL",
+      progressPercentage: "60%",
+    },
+
+    {
+      Stack: "Google Colab",
+      progressPercentage: "90%",
+    },
+
+    {
+      Stack: "Tableau",
+      progressPercentage: "80%",
+    },
+
+    {
+      Stack: "VS Code",
+      progressPercentage: "90%",
+    },
+
+    {
+      Stack: "Microsoft Office",
       progressPercentage: "70%",
     },
-    {
-      Stack: ".Net Core",
-      progressPercentage: "65%",
-    },
+
+    // {
+    //   Stack: "HTML", //Insert stack or technology you have experience in
+    //   progressPercentage: "90%", //Insert relative proficiency in percentage
+    // },
+    // {
+    //   Stack: "CSS",
+    //   progressPercentage: "80%",
+    // },
+    // {
+    //   Stack: "Bootstrap",
+    //   progressPercentage: "80%",
+    // },
+    // {
+    //   Stack: "PHP",
+    //   progressPercentage: "70%",
+    // },
+    // {
+    //   Stack: ".Net Core",
+    //   progressPercentage: "65%",
+    // },
   ],
 };
 
@@ -460,21 +474,58 @@ const competitiveSites = {
 };
 
 const degrees = {
-  degrees: [
+  degrees2: [
     {
-      title: "Ahsanullah University of Science and Technology",
-      subtitle: "B.Sc. in Computer Science and Engineering",
-      logo_path: "aust_logo.png",
+      title: "Univeristy of Melbourne",
+      subtitle1: "B.Sc. in Computer Science",
+      subtitle2: "Diploma in Mathematical Science",
+      logo_path: "unimelb.jpg",
       alt_name: "IIITDM Kurnool",
-      duration: "March 2016 - December 2020",
-      cgpa: "3.89 / 4.00",
+      duration: "2019 - 2022",
+      cgpa: "73.5 / 100",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
-        "⚡ Placed 4th in my class.",
-        "⚡ Dean's List.",
-        "⚡ I was selected for ITEE Training Program which comprised of 20 students in the CSE department.",
-        "⚡ Elected as the team leader in all the group projects.",
+        "- Achieved the Concurrent Degree (Double Major) in Computer Sicence and Statistics.",
+        "- Have a solid knowledge background in AI-related subject, technically and theoratically.",
+        "- Confident in using all kinds of programming languages such as Python, Java, C and software development principle with mulitple hands on projects.",
+        "- Thorough understanding of mathematical theories such as Probability, Statistics, Graph Theory", 
+
+        // "Handed on various APP development project:",
+        // "-- AI agent developing for adversial game", 
+        // "-- Machine Leanring driven EDA",
+        // "-- Card-play Software Development", 
+        // "-- Deadlock Process Dectetion Algorithm Development", 
+        // "-- HTML Sever Development in C", 
+        // "-- CRM Full Stack Development for Capstone Project in Java.",
+      ],
+      website_link: "http://aust.edu/",
+    },
+  ],
+
+  degrees1: [
+    {
+      title: "Univeristy of Sydney",
+      subtitle1: "B.Sc. (Honours) in Data Science",
+      subtitle2: "Ph.D in Engineering and IT (Current Studying)",
+      logo_path: "usyd.jpg",
+      alt_name: "IIITDM Kurnool",
+      duration: "2022 - now",
+      cgpa: "90 / 100",
+      descriptions: [
+        "- Top 3% student in the faculty in ranking the WAM.",
+        "- Nearly Medal.",
+        "- Goes deeper in the Machine Learning topics, such as noise-labelling, and deep learning.",
+        "- Confident in applying modern data analysis tools such as Pytorch, TensorFlow, Keras.",
+        "- Ranked 2sd in COMP5329 Kaggle completion with 150 teams.",
+        "- Research in Medical Image Segementation under supervision of Prof. Weidong Cai.",
+        "- Research in landing AI in economic and sustainability under supervision of Prof. Jin Ma."
+
+        // "Handed on various APP development project:",
+        // "-- AI agent developing for adversial game", 
+        // "-- Machine Leanring driven EDA",
+        // "-- Card-play Software Development", 
+        // "-- Deadlock Process Dectetion Algorithm Development", 
+        // "-- HTML Sever Development in C", 
+        // "-- CRM Full Stack Development for Capstone Project in Java.",
       ],
       website_link: "http://aust.edu/",
     },
@@ -501,7 +552,7 @@ const certifications = {
       alt_name: "Michigan University",
       color_code: "#2A73CC",
     },
-    /*
+
     {
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
@@ -610,7 +661,6 @@ const certifications = {
       alt_name: "GCP",
       color_code: "#4285F499",
     },
-	*/
   ],
 };
 
@@ -762,7 +812,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects. Most of these are academic projects with some personal projects in between.",
+    "My projects are mainly foucs on the AI agent development (eg,. Search-driven Chess-playing Agent, TD Reinforcement Learning), Machine Learning models (Proposed novel vision model named AUtO-Net for improving robustness of Medical Imaging Segmentation. Multi-layer Perceptron with NumPy impletement. Multi-model Mutli-label Classification ranked 2sd place in Kaggle Completion with 150 participants.), Software development (Customer Relationship Management App). And algorithm implementation (System deadlock detection and HTTP several algorithm in C)",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -772,24 +822,24 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "yann.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Basic Programming, ML, AI, Android, Cloud and Opensource Development.",
+      "Please contact me with email for Research of Interest, Programming, ML, AI.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
+      "I am planning to write something about philosophy of the daily life, AI, anything which I thought is interesting.",
     link: "https://miftaulmannan.wordpress.com/projects/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Banani, Dhaka-1212, Bangladesh",
+    subtitle: "Victoria St, Melbourne, VIC, 3000, Australia",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
   },
   phoneSection: {
-    title: "Phone Number",
-    subtitle: "+880 1953699363",
+    title: "Email",
+    subtitle: "yvnminc@outlook",
   },
 };
 

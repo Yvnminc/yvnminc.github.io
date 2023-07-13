@@ -49,18 +49,6 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/skill"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Skill
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
                   to="/education"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
@@ -73,6 +61,18 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
+                  to="/skill"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Skill
+                </NavLink>
+              </li>
+              {/* <li>
+                <NavLink
                   to="/experience"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
@@ -82,7 +82,7 @@ class Header extends Component {
                 >
                   Experience
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/projects"
@@ -95,7 +95,7 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/opensource"
                   tag={Link}
@@ -106,7 +106,7 @@ class Header extends Component {
                 >
                   Open Source
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink
                   to="/contact"

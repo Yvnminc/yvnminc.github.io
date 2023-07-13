@@ -17,13 +17,9 @@ class Education extends Component {
       <div className="education-main">
         <Header theme={this.props.theme} />
         <div className="basic-education">
-          <Fade bottom duration={2000} distance="40px">
+          {/* <Fade bottom duration={2000} distance="10px">
             <div className="heading-div">
               <div className="heading-img-div">
-                {/* <img
-									src={require("../../assests/images/education.svg")}
-									alt=""
-								/> */}
                 <EducationImg theme={theme} />
               </div>
               <div className="heading-text-div">
@@ -31,12 +27,12 @@ class Education extends Component {
                   Education
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Basic Qualification and Certifcations
+                  Qualification and Certifcations
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>
             </div>
-          </Fade>
+          </Fade> */}
           <Educations theme={this.props.theme} />
           <Certifications theme={this.props.theme} />
         </div>
